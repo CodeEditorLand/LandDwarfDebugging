@@ -1,18 +1,7 @@
 {
-	"compilerOptions": {
-		"baseUrl": "./",
-		"module": "CommonJS",
-		"outDir": "Target",
-		"rootDir": "src",
-		"strict": true,
-		"target": "ES2021"
-	},
-	"extends": "@playform/build/tsconfig",
-	"include": [
-		"src",
-		"src",
-		"src",
-		"src",
-		"src"
-	]
+  "compilerOptions": {
+    "strict": true,
+    "module": "CommonJS",
+    "target": "ES2021"
+  }
 }
